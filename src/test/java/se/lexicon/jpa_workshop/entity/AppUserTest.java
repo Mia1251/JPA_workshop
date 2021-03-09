@@ -15,7 +15,7 @@ public class AppUserTest {
     }
 
     @Test
-    @DisplayName("Test1 created new object")
+    @DisplayName("Test1 create new object")
     public void test_create() {
         Assertions.assertEquals(1,testObject.getId());
         Assertions.assertEquals("Andreas",testObject.getFirstName());
